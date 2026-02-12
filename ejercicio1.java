@@ -7,9 +7,14 @@ public static void multiplos (int numeroMax) {
          if (i%49==0){
             System.out.println("Multiplo de 49: " +i);
         }
+<<<<<<< HEAD
           if (i%200==0) {
             System.out.println("multiplo de 200: " +i);
         }
+=======
+          
+        
+>>>>>>> ab0b4a0f610b57463e8ad5f9fe4693beb6613a14
     }        
   }
 }
