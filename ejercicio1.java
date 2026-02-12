@@ -7,10 +7,9 @@ public static void multiplos (int numeroMax) {
          if (i%49==0){
             System.out.println("Multiplo de 49: " +i);
         }
-         else if(i%100==0){
-            System.out.println("Multiplo de 100: " +i);
-        }   
-        
+          if (i%200==0) {
+            System.out.println("multiplo de 200: " +i);
+        }
     }        
   }
 }
